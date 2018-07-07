@@ -1,9 +1,9 @@
 class Skuld < Formula
   desc "CLI tool for AWS MFA credentials"
   homepage "https://github.com/DEEP-IMPACT-AG/skuld"
-  url "https://github.com/DEEP-IMPACT-AG/skuld/releases/download/v0.6.0/skuld_0.6.0_darwin_amd64.tar.gz"
-  version "0.6.0"
-  sha256 "34791c8dab5d2163db83063794aabcde07187da5bd68769eee68e9c049aaf739"
+  url "https://github.com/DEEP-IMPACT-AG/skuld/releases/download/v0.6.1/skuld_0.6.1_darwin_amd64.tar.gz"
+  version "0.6.1"
+  sha256 "89baa03124c85ce3c1c9146598b4d926808954b937916d5b79501430a3295b26"
 
   def install
     bin.install "skuld"
