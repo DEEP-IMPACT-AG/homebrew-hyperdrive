@@ -6,8 +6,7 @@ class Skuld < Formula
   desc "CLI tool for AWS MFA credentials"
   homepage "https://github.com/DEEP-IMPACT-AG/skuld"
   version "0.7.5"
-  bottle :unneeded
-
+  
   if OS.mac?
     url "https://github.com/DEEP-IMPACT-AG/skuld/releases/download/v0.7.5/skuld_0.7.5_Darwin_x86_64.tar.gz"
     sha256 "f2e8adbd1bea2316413742c37d562fd7bd3aa389bc209d79c0572ee444b7a415"
